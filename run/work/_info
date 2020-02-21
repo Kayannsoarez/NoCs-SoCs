@@ -1,0 +1,830 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Gabriel/Desktop/UFC2019.2/Topicos1/noc_topics/nalu2d/nalu/run
+vcomb_matrix_arb_next_state
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 DXx4 work 15 defines_sv_unit 0 22 coQn[ezoNgXOFUKmX=7PO1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A2bQ`oPhOd>`JE8[_cn;12
+IX^ek3hAnn3SUE?5[G^GeB1
+Z4 !s105 defines_sv_unit
+S1
+R0
+Z5 w1569958170
+Z6 8../src/NL_arbiter.sv
+Z7 F../src/NL_arbiter.sv
+L0 104
+Z8 OP;L;10.4a;61
+Z9 !s108 1573756554.000000
+Z10 !s107 parameters.sv|../verif/NL_test_random.sv|../verif/NL_traffic_test_functions.sv|../verif/NL_traffic_sink.sv|../verif/NL_traffic_source.sv|../verif/NL_traffic_source_fifo.sv|../src/NL_mesh_network.sv|../src/NL_router.sv|../src/NL_vc_router.sv|../src/routing_unit/NL_nocft_planar.sv|../src/NL_route_preselect.sv|../src/NL_mux_oh_select.sv|../src/NL_unary_select_pair.sv|../src/NL_vc_unrestricted_allocator.sv|../src/NL_vc_switch_allocator.sv|../src/NL_crossbar.sv|../src/NL_vc_fc_out.sv|../src/NL_vc_free_pool.sv|../src/NL_vc_input_port.sv|../src/NL_vc_buffers.sv|../src/NL_arbiter.sv|../src/NL_pipelined_channel.sv|../src/NL_package.sv|defines.sv|
+Z11 !s90 -reportprogress|300|-sv|-mfcu|-work|work|+nowarnSVCHK|+nowarnTFMPC|+incdir+lib|-f|comp_noc.f|
+!s101 -O0
+!i113 1
+Z12 o-sv -mfcu -work work +nowarnSVCHK +nowarnTFMPC -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z13 !s92 -sv -mfcu -work work +nowarnSVCHK +nowarnTFMPC +incdir+lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Xdefines_sv_unit
+R1
+VcoQn[ezoNgXOFUKmX=7PO1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PlY49a>NfSR<RXelYN:c=1
+IcoQn[ezoNgXOFUKmX=7PO1
+!i103 1
+S1
+R0
+Z14 w1573756548
+8defines.sv
+Fdefines.sv
+Z15 Fparameters.sv
+8../src/NL_package.sv
+F../src/NL_package.sv
+Z16 8../src/NL_pipelined_channel.sv
+Z17 F../src/NL_pipelined_channel.sv
+R6
+R7
+Z18 8../src/NL_vc_buffers.sv
+Z19 F../src/NL_vc_buffers.sv
+Z20 8../src/NL_vc_input_port.sv
+Z21 F../src/NL_vc_input_port.sv
+Z22 8../src/NL_vc_free_pool.sv
+Z23 F../src/NL_vc_free_pool.sv
+Z24 8../src/NL_vc_fc_out.sv
+Z25 F../src/NL_vc_fc_out.sv
+Z26 8../src/NL_crossbar.sv
+Z27 F../src/NL_crossbar.sv
+Z28 8../src/NL_vc_switch_allocator.sv
+Z29 F../src/NL_vc_switch_allocator.sv
+Z30 8../src/NL_vc_unrestricted_allocator.sv
+Z31 F../src/NL_vc_unrestricted_allocator.sv
+Z32 8../src/NL_unary_select_pair.sv
+Z33 F../src/NL_unary_select_pair.sv
+Z34 8../src/NL_mux_oh_select.sv
+Z35 F../src/NL_mux_oh_select.sv
+Z36 8../src/NL_route_preselect.sv
+Z37 F../src/NL_route_preselect.sv
+Z38 8../src/routing_unit/NL_nocft_planar.sv
+Z39 F../src/routing_unit/NL_nocft_planar.sv
+Z40 8../src/NL_vc_router.sv
+Z41 F../src/NL_vc_router.sv
+Z42 8../src/NL_router.sv
+Z43 F../src/NL_router.sv
+Z44 8../src/NL_mesh_network.sv
+Z45 F../src/NL_mesh_network.sv
+Z46 8../verif/NL_traffic_source_fifo.sv
+Z47 F../verif/NL_traffic_source_fifo.sv
+Z48 8../verif/NL_traffic_source.sv
+Z49 F../verif/NL_traffic_source.sv
+Z50 8../verif/NL_traffic_sink.sv
+Z51 F../verif/NL_traffic_sink.sv
+8../verif/NL_traffic_test_functions.sv
+F../verif/NL_traffic_test_functions.sv
+Z52 8../verif/NL_test_random.sv
+Z53 F../verif/NL_test_random.sv
+L0 15
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vfifo_buffer
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 =E0NCijh03>j]7M1[<D?]0
+If5LX;gTJ@mVdg_>6zAe6L2
+R4
+S1
+R0
+Z54 w1569958130
+R18
+R19
+L0 231
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vfifo_buffer_source
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 iQacTTfg:[PB5kP1[k:_=0
+ImJlk_]kcMoNWU]M4iSR4B2
+R4
+S1
+R0
+Z55 w1569959046
+R46
+R47
+L0 171
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vfifo_flags
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 l36Qzagk43XnGamXnK<n:3
+IRa[?54KRMFcS_E5XBTBif0
+R4
+S1
+R0
+R54
+R18
+R19
+L0 157
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vfifo_flags_source
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]BR>S7lWOndZhLX7zRXe70
+I3V2]YkWT_L:GPcnb<DCEa0
+R4
+S1
+R0
+R55
+R46
+R47
+L0 92
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vmatrix_arb
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 TIOPRHh^_fb0oeQ@mTo733
+IQM1DNi]>K;Lm>K^nOeG4?2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 125
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+vNL_crossbar
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y5z9[ZMZ:iS`EGf;X4?TG3
+IMaRDKB73SU=Z0i<4K:8cn1
+R4
+S1
+R0
+Z56 w1569955014
+R26
+R27
+L0 29
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_crossbar
+vNL_mesh_network
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ncmCV@K<IKM6aXckTWK[P0
+I88`NJ]`ZkYkF]RH<3lKDS1
+R4
+S1
+R0
+R14
+R44
+R45
+R15
+L0 1
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_mesh_network
+vNL_mux_oh_select
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 cjWH;oS^APiR[LOJlaHF03
+IEZce:B5C361mK]Bf075OQ3
+R4
+S1
+R0
+w1569955011
+R34
+R35
+L0 18
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_mux_oh_select
+vNL_mux_oh_select_crossbar
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 6mSXfMHXH_CY7QlFM2WaP3
+IXEgF1NMEQc5IdNDP5Vnj62
+R4
+S1
+R0
+R56
+R26
+R27
+L0 5
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_mux_oh_select_crossbar
+vNL_nocft_planar
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 VLj5T=`a02J?=m=:E_JeA0
+Inz:80cFeF;gF962:zR?a>1
+R4
+S1
+R0
+w1573756345
+R38
+R39
+L0 2
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_nocft_planar
+vNL_pipelined_channel
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 LUiF1lBV<@5VDcf063Rm61
+IS]QSD53afMK@BF7Cba;6J0
+R4
+S1
+R0
+Z57 w1569958086
+R16
+R17
+L0 32
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_pipelined_channel
+vNL_reg
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 OF9a515@81zKnciXbH=lV0
+I0>[C7:LdcZ[B8?1>3UF?<1
+R4
+S1
+R0
+R57
+R16
+R17
+Z58 L0 12
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_reg
+vNL_route_preselect
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 [?@J[8I?cG::[MZMR^TEC1
+In=_HabbmKXj@o5[Q_[Ae;2
+R4
+S1
+R0
+w1522230942
+R36
+R37
+L0 10
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_route_preselect
+vNL_router
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 7287C]2Q]NGWgX0@1kbCT0
+I^<_`]IE>mn`^bJzO^>6OV0
+R4
+S1
+R0
+R14
+R42
+R43
+R15
+L0 6
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_router
+vNL_test_random
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 o;L[`Z2le73dnz;E@8HAc0
+Izl4h`QiIaC98E@`dlgZ2P2
+R4
+S1
+R0
+R14
+R52
+R53
+R15
+L0 8
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_test_random
+vNL_traffic_sink
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 8WYFRcT1VTTkjDMko_CRo0
+IidoSYeIo8_6L9^Jc8h41R0
+R4
+S1
+R0
+w1569959023
+R50
+R51
+R58
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_traffic_sink
+vNL_traffic_source
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 3W;I[?DcPVo]<C@CZ25[F3
+IgS:b^[7QWPX@lCUHJ_Kf;3
+R4
+S1
+R0
+w1569959033
+R48
+R49
+Z59 L0 14
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_traffic_source
+vNL_traffic_source_fifo
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 :<oDk<YD3U1T8LXTazfPB3
+I73KEWEW<SP_a2M3UL5SG50
+R4
+S1
+R0
+R55
+R46
+R47
+L0 49
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_traffic_source_fifo
+vNL_tree_arbiter
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 6APFbDXQLKoQEl3Okbi?R1
+IN;VR;Noe81O7]YhzhIXVT0
+R4
+S1
+R0
+R5
+R6
+R7
+R59
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_tree_arbiter
+vNL_unary_select_pair
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Oiz@@=[`[A=TV[VZX31M>2
+Ike[;K;hB=_dEGiCF[0Ye@3
+R4
+S1
+R0
+w1569958122
+R32
+R33
+L0 24
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_unary_select_pair
+vNL_vc_buffers
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Ja`cWWkd7RO`De_?JnT@l2
+IPN?@gDRfQA<71R9lKSJa=0
+R4
+S1
+R0
+R54
+R18
+R19
+L0 30
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_buffers
+vNL_vc_fc_out
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 a?aH99l6HRdmbWZ[81<kT0
+IJ3hI55WeCGBRSHdIgo:Y[1
+R4
+S1
+R0
+w1569957784
+R24
+R25
+L0 21
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_fc_out
+vNL_vc_fifo
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 L3f?eOIWE0NcTaYHREJ`H3
+Ini<i=WlTI4XK_[ZWCMeJO1
+R4
+S1
+R0
+R54
+R18
+R19
+L0 112
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_fifo
+vNL_vc_free_pool
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4YJC;VbB;o>];R^WC7=1Z1
+Im<?8<;XN7czHZWQBQQh1?2
+R4
+S1
+R0
+w1569958140
+R22
+R23
+L0 11
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_free_pool
+vNL_vc_input_port
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 fBm@ZB17_Z^S@]JPMcc`i0
+IZLjNX5^mYknHU]9A1MZzK0
+R4
+S1
+R0
+w1573755958
+R20
+R21
+L0 1
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_input_port
+vNL_vc_router
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 =YOkIEC2GLLmMle^]6^cb3
+I2;RG:=86DNBXVTfCWV<?d2
+R4
+S1
+R0
+w1573755768
+R40
+R41
+L0 6
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_router
+vNL_vc_switch_allocator
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 <340h7EEMF;zNf>ZECgHP0
+ID[B4SS01PB8VPZKej4VOP1
+R4
+S1
+R0
+w1569958155
+R28
+R29
+L0 33
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_switch_allocator
+vNL_vc_unrestricted_allocator
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 aWVO?b7SJPCoKg;@jCN@52
+IYKK6ha0H3<I0?WfgeXz5;3
+R4
+S1
+R0
+w1569958163
+R30
+R31
+L0 20
+R8
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+n@n@l_vc_unrestricted_allocator
